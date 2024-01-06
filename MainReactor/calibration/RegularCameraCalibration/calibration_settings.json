@@ -1,0 +1,10 @@
+{
+    "ChessboardSize": {
+        "width": 8,
+        "height": 6
+    },
+    "Image": {
+        "path": "images",
+        "file_ext": "jpg"
+    }
+}

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["scikit-build-core"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "MainReactor"
+version = "0.0.1"
+
+[tool.scikit-build]
+# The root-level packages to include. Special default: if not given, the package
+# is auto-discovered if it's name matches the main name.
+wheel.packages = ["python/MainReactor", "MainReactor"]
+# Setting this to true will expand tags (universal2 will add Intel and Apple
+# Silicon tags, for pip <21.0.1 compatibility).
+wheel.expand-macos-universal-tags = true
+# This controls the CMake build type
+cmake.build-type = "Release"

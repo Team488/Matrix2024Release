@@ -1,0 +1,15 @@
+/build
+/.vscode
+CMakeFiles/
+.vs
+*.jpg
+*.png
+__pycache__/
+CalibrationInfo.txt
+Debug/
+Release/
+*.vcxproj
+
+# histogram creation pics
+pics
+.DS_Store
